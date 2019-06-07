@@ -43,7 +43,7 @@ This quote has two tags: [life, love] which means when we follow the life tag li
 So this time your job is to build a pipeline called FilterDuplicate that will Drop the duplicated quotes.
 
 Hints:
-In Python we have a data structure called [sets] which has no duplicates so make sure to use it
+In Python we have a data structure called [sets](https://docs.python.org/3/tutorial/datastructures.html#sets) which has no duplicates so make sure to use it
 
 Your pipeline should only contain two methods:
 
