@@ -5,7 +5,7 @@ This introduction is referenced from https://github.com/rafikahmed/web-scraping-
 More detail, tutorial and information you can find his course (Modern Web Scrapping with Python) on Udemy.
 This code is divided in two parts, part one you will create your crawl spider from Scratch and in part two you will build a Pipeline to filter duplicated quotes.
 
-##PART 1
+## PART 1
 Crawl this website: http://quotes.toscrape.com
 
 Your Crawl Spider must:
@@ -33,7 +33,7 @@ Your spider should only have one parse method called parse_item
 
 All the items should be saved in a JSON file
 
-##PART 2
+## PART 2
 Now you've built your Crawl Spider but there is a high chance that you noticed your JSON file contains duplicated quotes.
 
 Example:
