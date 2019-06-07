@@ -51,7 +51,7 @@ open_spider(self, spider) in which you have to instantiate an empty set
 
 process_item(self, item, spider) which should drop the duplicated quotes
 
-In Scrapy if we do want to Drop and item we can use the [DropItem] exception
+In Scrapy if we do want to Drop and item we can use the [DropItem](https://doc.scrapy.org/en/latest/topics/exceptions.html#dropitem) exception
 
 You can use the following code as a start
 
@@ -68,6 +68,4 @@ class FilterDuplicate(object):
         else:
             #means if the item doesn't exist in your set then add it to it
             return item
-            
-[sets]='https://docs.python.org/3/tutorial/datastructures.html#sets'            
-[DropItem]='https://doc.scrapy.org/en/latest/topics/exceptions.html#dropitem'
+
